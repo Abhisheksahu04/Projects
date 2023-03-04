@@ -22,7 +22,7 @@ function rotation(){
     let hour = document.getElementById('hour');
     let center = document.getElementById('center');
     
-    if(!(h>=6 && h<18)){
+    if(h>=6 && h<18){
         bodycolor.style.backgroundColor = 'skyblue';
         clock.style.backgroundImage = "url('Untitled-2.png')";
         clock.style.backgroundColor = 'white';
